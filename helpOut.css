@@ -1,0 +1,43 @@
+body{
+    background-image: linear-gradient(rgba( 0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1543981625-9e16466731b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
+    background-size: cover;
+}
+
+.navbar-items{
+    width: auto !important;
+}
+
+.navbar-toggler{
+    color: white;
+    font-size: 3em;
+    padding: 30px;
+}
+
+#navItem{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+.nav-link{
+    color: white;
+}
+
+a:hover{
+    color: #961979;
+}
+
+#text{
+    font-family: 'helpOutFont';
+    font-weight: normal;
+    font-size: 30px;
+    text-shadow: 2px 2px 3px #961979;
+    padding: 0px !important;
+}
+
+@font-face {
+    font-family:'helpOutFont';
+    src: url('fonts/SUDBURY.TTF') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
