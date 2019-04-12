@@ -10,25 +10,25 @@
     <link rel="stylesheet" href="helpOut.css">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:700" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
     <title>Help Out</title>
   </head>
   <body>
 
     <!-- NAV BAR -->
-
-           <nav class="navbar navbar-expand-lg" id="text"> 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <i class="fas fa-bars"></i>
-                      </button>
-            <div class="collapse navbar-collapse navbarSupportedContent" >
-                <ul class="navbar-nav w-100% justify-content-around align-items-center" id="navItem">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <i class="fas fa-bars"></i>
+    </button>
+        <div class="container-fluid p-0">
+           <nav class="navbar navbar-expand-lg fixed-top " id="text"> 
+                <ul class="navbar-nav w-100% justify-content-around align-items-center d-none d-lg-flex" id="navItem">
                     <li>
                     <a class="nav-link " href="#">Inicio</a>
                     </li>
                     <li>
                     <a class="nav-link" href="#">Sobre</a>
                     </li>
-                    <a href="helpout.html"><img src="logoo.png" height="120px" width="120px" alt=""></a>
                     <li>
                     <a class="nav-link" href="#">Instituições</a>
                     </li>
@@ -37,23 +37,135 @@
                     </li>
                 </ul>
             </div>
-            
+            <a class="container text-center mt-4 nav-link w-25" href="helpout.html"><img src="logoo.png" height="120px" width="120px" alt=""></a>
             </nav>
+          
 
     <!-- NAV BAR END -->
+    
+    <!-- CARROUSEL START -->
+    <div id="carouselExampleIndicators" class="carousel slide d-none d-md-block" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active m-0">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="display-4">Existem 820.000 Ongs precisando de apoio</h2>
+                <p class="lead">Entre os anos de 2010 a 2016 o número de Ongs no Brasil caiu em 16,5%</p>
+              </div>
+          <img src="foto1.jpg" class="d-block w-100 h-20 " alt="...">
+        </div>
+        <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="display-4">Você pode ser a diferença.</h2>
+                <p class="lead">Uma doação de apenas 7 reais possibilita que uma família adquira comida para um dia inteiro</p>
+              </div>
+          <img src="foto2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <div class="carousel-caption d-none d-md-block">
+                <h2 class="display-4">Colabore com vidas, <a href="colabore.html" target="_blank"><span id="helpOut" class="helpOut" >Help Out. </span></a></h2>
+                <p class="lead">Em 2017, 7,4 milhões de pessoas colaboraram com alguma causa, vai ficar de fora?</p>
+              </div>
+          <img src="foto3.jpg" class="d-block w-100" alt="...">
+          </div>
+      </div>
+      <a class="carousel-control-prev d-none d-lg-flex" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <i class="fas fa-chevron-left"></i>
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+      <a class="carousel-control-next d-none d-lg-flex" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <i class="fas fa-chevron-right"></i>
+      </a>
+      <hr class="style-eight m-0 fixed-top">
+    </div>
+    <!-- CAROUSEL END -->
+    <hr class="style-eight m-0">
+    <!-- ABOUT START -->
+    <div class="container-fluid about text-light">
+      <div class="row">
+        <div class="col-md-12 mt-5 mb-0">
+          <div class="container ml-4"><h1 class="about-font text-left display-3 helpOut mb-0">Help Out</h1></div>
+        </div>
+      <div class="row about ml-7"><h3 class="about-font">O que é <span class="helpOut">Help Out</span>? <br> Help Out significa Ajudar, nosso objetivo é construir uma plataforma que possibilita voluntários encontrarem ONG'S e Instituições de Apoio com facilidade e oferecerem sua ajuda, da maneira que puderem. </h3></div>
+    </div>
+    <!-- <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="card"></div>
+        </div>
+      </div> -->
+    </div>
+      </div>
 
-    <!-- JUMBOTRON -->
+    <!-- ABOUT END -->
+    
+    
+    <!-- CARDS START -->
+    <!-- <div class="container-fluid p-0">
+    <div class="row cards-row">
+      <div class="col-md-6 col-lg-4">
+        <div class="card text-white bg-info mb-3 mt-3 card-border border-info mx-auto" style="width: 21rem;">
+          <a href="https://www.facebook.com/souamigo.org/" target="_blank"><img src="souamigo.jpg" height="230px" width="50px" class="card-img-top d-none d-md-block" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">ONG Sou Amigo</h5>
+            <p class="card-text">A ONG "Sou Amigo" é responsável pelo evento trimestral "Rocão" conhecido por sua feira de adoção de animais SRD, cujo objetivo é arrecadar dinheiro para resgate de animais de rua.</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card text-white bg-info mb-3 mt-3 card-border border-info mx-auto" style="width: 21rem;">
+          <a href="https://www.facebook.com/abrigosaovicentessvp/"><img src="saovicente.png" height="230px" width="50px" class="card-img-top d-none d-md-block" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Abrigo dos Idosos São Vicente de Paulo</h5>
+            <p class="card-text">O Abrigo acolhe atualmente 70 idosos, em regime de internato, que sobrevivem basicamente de doações destinadas a ONG.</p>
+            </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="card text-white bg-info mb-3 mt-3 border-0 pb-3 mx-auto" style="width: 21rem;">
+          <a href="https://www.facebook.com/pages/Lar-dos-Bebes/248698488568479"><img src="lardosbb.jpg" height="230px" width="50px" class="card-img-top d-none d-md-block" alt="..."></a>
+          <div class="card-body">
+            <h5 class="card-title">Lar dos Bebes Pequeno Peregrino</h5>
+            <p class="card-text pb-2">Um projeto que começou com um desejo simples de ajudar uma amiga acabou crescendo e se tornando uma das bases de apoio de diversas familias e crianças.</p>
+            </div>
+        </div>
+    </div>
+        <div class="col-md-6 col-lg-4">
+            <div class="card text-white bg-info mb-3 mt-3 card-border border-info mx-auto" style="width: 21rem;">
+              <a href="https://www.facebook.com/souamigo.org/" target="_blank"><img src="souamigo.jpg" height="230px" width="50px" class="card-img-top d-none d-md-block" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">ONG Sou Amigo</h5>
+                <p class="card-text">A ONG "Sou Amigo" é responsável pelo evento trimestral "Rocão" conhecido por sua feira de adoção de animais SRD, cujo objetivo é arrecadar dinheiro para resgate de animais de rua.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card text-white bg-info mb-3 mt-3 card-border border-info mx-auto" style="width: 21rem;">
+              <a href="https://www.facebook.com/abrigosaovicentessvp/"><img src="saovicente.png" height="230px" width="50px" class="card-img-top d-none d-md-block" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">Abrigo dos Idosos São Vicente de Paulo</h5>
+                <p class="card-text">O Abrigo acolhe atualmente 70 idosos, em regime de internato, que sobrevivem basicamente de doações destinadas a ONG.</p>
+                <a href="https://www.facebook.com/abrigosaovicentessvp/ target="_blank" class="btn btn-primary">Saiba mais.</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="card text-white bg-info mb-3 mt-3 border-0 pb-3 mx-auto" style="width: 21rem;">
+              <a href="https://www.facebook.com/pages/Lar-dos-Bebes/248698488568479"><img src="lardosbb.jpg" height="230px" width="50px" class="card-img-top d-none d-md-block" alt="..."></a>
+              <div class="card-body">
+                <h5 class="card-title">Lar dos Bebes Pequeno Peregrino</h5>
+                <p class="card-text pb-2">Um projeto que começou com um desejo simples de ajudar uma amiga acabou crescendo e se tornando uma das bases de apoio de diversas familias e crianças.</p>
+                <a href="https://www.facebook.com/pages/Lar-dos-Bebes/248698488568479" target="_blank" class="btn btn-primary">Saiba mais.</a>
+              </div>
+          </div>
+        </div>
+    </div>
+    </div>
+  </div>
+</div> -->
 
-    <!-- <div class="jumbotron">
-            <h1 class="display-4">Hello, world!</h1>
-            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-            <hr class="my-4">
-            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-            <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-          </div> -->
+    <!-- CARDS END -->
 
-
-      
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="helpOut.js"></script>

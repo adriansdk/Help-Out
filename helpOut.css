@@ -1,15 +1,25 @@
 body{
-    background-image: linear-gradient(rgba( 0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://images.unsplash.com/photo-1543981625-9e16466731b8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80);
-    background-size: cover;
+    background-color: black;
+}
+
+/* FONTS */
+
+.about-font{
+    font-family: 'Righteous', cursive;
+    text-shadow: 2px 2px 3px #000;
 }
 
 .navbar-items{
     width: auto !important;
 }
 
+.fas{
+    font-size: 37px;
+}
+
 .navbar-toggler{
     color: white;
-    font-size: 3em;
+    font-size: 2em;
     padding: 30px;
 }
 
@@ -23,13 +33,21 @@ body{
 }
 
 a:hover{
-    color: #961979;
+    color: #a33489;
 }
 
+.ml-6{
+    margin:auto;
+}
+
+.ml-7{
+    margin-left: 60px;
+    font-size: 30px;
+}
 #text{
     font-family: 'helpOutFont';
     font-weight: normal;
-    font-size: 30px;
+    font-size: 20px;
     text-shadow: 2px 2px 3px #961979;
     padding: 0px !important;
 }
@@ -40,4 +58,75 @@ a:hover{
     font-weight: normal;
     font-style: normal;
 
+}
+
+.card-img-top:hover{
+    filter: drop-shadow(3px 3px 5px black);
+}
+
+.card-img-top{
+    padding: 4px;
+}
+
+.card{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.carousel{
+    width: 100%;
+    min-height: 385px !important;
+
+}
+.carousel-item h2{
+    text-shadow: 2px 2px black;
+}
+
+.fas {
+    color: #961979;
+    font-size: 90px;
+}
+
+.helpOut{
+    font-family: "helpOutFont";
+}
+
+#helpOut:hover{
+    color: #961979;
+}
+
+hr.style-eight {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #fff;
+    color: #fff;
+    text-align: center;
+}
+hr.style-eight:after {
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 2em;
+    padding: 0 0.25em;
+    background: transparent;
+}
+
+.container-fluid.about{
+    width: 100%;
+    background-image: linear-gradient(rgba(73, 50, 83, 0.1), rgba(73, 50, 83, 0.1)), url("background.jpg") !important;
+    background-size: cover;
+    height: 800px;
+}
+
+.container-fluid.about-container{
+    background-color: white;
+    margin-left: 80px;
+
+}
+
+.row.about{
+    height: 300px;
+    width: 300px;
 }
