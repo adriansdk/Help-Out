@@ -14,7 +14,10 @@ body{
 }
 
 .fas{
-    font-size: 37px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #961979;
+    font-size: 45px;
 }
 
 .navbar-toggler{
@@ -80,11 +83,6 @@ a:hover{
 }
 .carousel-item h2{
     text-shadow: 2px 2px black;
-}
-
-.fas {
-    color: #961979;
-    font-size: 90px;
 }
 
 .helpOut{
